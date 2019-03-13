@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+}
+
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 40px;
+  font-family: sans-serif;
+  margin: 0;
+  font-size: 20px
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  margin: 0;
+}
+.top-left {
+  display:inline-block;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header {
+  background-color: rgb(32, 101, 136);
+  background-image: url(images/city-scape.svg);
+  background-size: cover;
+  color:white;
+}
+.header-bar { 
+  display: flex;
+  align-items:center;
+
+}
+
+#imglogo {
+  height: 50px;
+  width: 100px;
+  margin: 10px; 
+}
+
+#search-bar {
+  width: 80%;
+  height: 40px;
+  border: 1px solid rgb(255, 255, 255, 0.1);
+  background-color: rgb(31, 82, 111);
+  padding: 0 0 0 5px;
+}
+#submit-button {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgb(255, 255, 255, 0.1);
+  background-image: url(https://s3.amazonaws.com/iconbros/icons/icon_pngs/000/000/065/original/magnifier.png?1509906422);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(31, 82, 111);
+}
+.sign-up {
+  display: flex;
+  align-items: center; 
+  padding: 5px
+}
+.sign-up a {
+  text-decoration: none;
+  color:white
+}
+
+.bear {
+  width: 25px;
+  height: 25px;
+}
+.city-container {
+  margin: 0 auto;
+  width: 50%;
+  height: 450px;
+}
+h1 {
+  font-size: 3em;
+  padding-top: 50px;
+  padding-right: 50px;
+  font-weight: 250;
+}
+
+.button-style {
+  color: White;
+  background-color: rgb(240, 146, 51);
+  padding: 10px;
+  border: 0;
+  border-radius: 12px;
+  margin-top: 104px;
+  width: 20%;
+}
+.section-1 {
+  background-color:rgb(39, 53, 71);
+  color:#ffffff;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+.collaborationImg {
+  height: 400px;
+  width: 40%;
+  margin: 100px 15px 100px 200px;
+}
+.collaboration {
+  display: inline-block;
+  width: 30%;
+}
+.collaboration h1 {
+  font-size: 40px;
+  color: #ffffff;
+  padding: 0 0 0 10px;
+}
+.button-style-2 {
+  background-color:rgb(203, 56, 55);
+  padding: 10px;
+  border: 0;
+  border-radius: 12px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 30%;
+  color:white;
+}
+li {
+  margin: 10px;
+}
+.section-1-extra {
+  text-decoration: none;
+}
+.collaboration a {
+text-decoration: none;
+color: white;
+}
+#section-2 {
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  position: relative;
+  color:white;
+  height: 600px;
+  
+}
+.whatNpm h1 {
+  margin: 0 auto;
+}
+.whatNpm {
+  position: absolute;
+  margin: 100px 0 0 200px; 
+}
+.button-style-3 {
+  background-color:rgb(49, 68, 88);
+  padding: 10px;
+  border: 0;
+  border-radius: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 40%;
+  color:white;
+}
+#section-3 {
+ display:block;
+}
+.WhatCanYouMake {
+  text-align: center;
+  color: rgb(83, 88, 98);
+}
+.WhatCanYouMake p {
+  color:rgb(135, 145, 156);
+}
+.articles {
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  text-align: center;
+  display:inline-block;
+  width: 150px;
+}
+.container a {
+  text-decoration:none;
+  color: rgb(208, 74, 73);
+}
